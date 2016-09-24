@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	<!-- 包含框架通用的配置文件 -->
+	<include file="struts-default.xml" />
+	<!-- 设置编码格式 -->
+	<constant name="struts.i18n.encoding" value="utf-8"/>
+	<!-- 默认包 -->
+	<package name="default" extends="struts-default">
+	
+	
+	</package>
+	
+	
+	<!-- my包 -->
+	<package name="my" extends="struts-default" namespace="/my">
+	
+	
+	
+	</package>
+	
+	
+	<!-- 后台包 -->
+	<package name="admin" extends="struts-default" namespace="/admin">
+	
+	
+	</package>
+
+</struts>
