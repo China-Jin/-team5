@@ -28,5 +28,10 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/UEditor/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/UEditor/commons-fileupload-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/UEditor/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/UEditor/json.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/UEditor/ueditor-1.1.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
